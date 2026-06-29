@@ -1,0 +1,12 @@
+{
+  "name": "misenaplo_selenium",
+  "version": "1.0.0",
+  "description": "GUI testing of the MisEnaplo web application",
+  "main": "index.js",
+  "author": "Lilla Eszter Tóth",
+  "license": "ISC",
+  "dependencies": {
+    "chromedriver": "^130.0.2",
+    "selenium-webdriver": "^4.26.0"
+  }
+}

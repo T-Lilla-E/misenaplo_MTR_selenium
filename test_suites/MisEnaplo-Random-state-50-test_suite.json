@@ -1,0 +1,29 @@
+{
+    "test_suite": {
+        "name": "MisEnaplo",
+        "id": "febd5621-d3cc-47c0-b069-3ea8dd12e596",
+        "method": "Random",
+        "input_list": [
+            "press Users item",
+            "press Add user",
+            "press Cancel user",
+            "press Groups item",
+            "press Parishes item",
+            "press Parishes item",
+            "press Users item",
+            "press Parishes item",
+            "press Add parish"
+        ],
+        "output_list": [
+            "users page",
+            "user form",
+            "users page",
+            "groups page",
+            "parishes page",
+            "parishes page",
+            "users page",
+            "parishes page",
+            "parish form"
+        ]
+    }
+}

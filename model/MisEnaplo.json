@@ -1,0 +1,455 @@
+{
+    "models": [
+        {
+            "name": "MisEnaplo",
+            "id": "febd5621-d3cc-47c0-b069-3ea8dd12e596",
+            "hasReset": false,
+            "hasReliableReset": false,
+            "modelGenerationMethod": "CUSTOM",
+            "generator": "random(edge_coverage(100))",
+            "vertices": [
+                {
+                    "id": "840c5814-4beb-4a2c-aa75-f63b618883eb",
+                    "name": "v_ProfilePage",
+                    "properties": {
+                        "x": 472.00000000000008,
+                        "y": 116.00000000000004
+                    }
+                },
+                {
+                    "id": "940ea3e1-3700-4447-8e16-a426a5e03c37",
+                    "name": "v_GroupsPage",
+                    "properties": {
+                        "x": 89.00000000000002,
+                        "y": 274.0
+                    }
+                },
+                {
+                    "id": "687d488b-f111-4408-bf36-dac3b53303f9",
+                    "name": "v_UsersPage",
+                    "properties": {
+                        "x": 468.0,
+                        "y": 639.0
+                    }
+                },
+                {
+                    "id": "05b44e1f-a481-44c2-9c4c-02801a9f9497",
+                    "name": "v_ParishesPage",
+                    "properties": {
+                        "x": 876.0,
+                        "y": 281.00000000000008
+                    }
+                },
+                {
+                    "id": "dd8ab91e-6dbf-4ebb-8de5-eca48f2077ae",
+                    "name": "v_EmailForm",
+                    "properties": {
+                        "x": 831.154875241327,
+                        "y": -53.664236282187008
+                    }
+                },
+                {
+                    "id": "d746ba46-cd72-4826-9a73-47f429bbdba2",
+                    "name": "v_PasswordForm",
+                    "properties": {
+                        "x": 157.03542169450555,
+                        "y": -54.53262510009536
+                    }
+                },
+                {
+                    "id": "4c0e7c06-08f2-47e5-a513-6e3ece5e4509",
+                    "name": "v_AddGroupForm",
+                    "properties": {
+                        "x": -46.91049501614915,
+                        "y": -16.76486274627041
+                    }
+                },
+                {
+                    "id": "fc379a4d-78a1-4fd8-a499-0e6a5e2e1f31",
+                    "name": "v_ModifyGroupForm",
+                    "properties": {
+                        "x": -228.19575431450893,
+                        "y": 511.9838102072789
+                    }
+                },
+                {
+                    "id": "30130e11-4864-4a57-b1cf-83d7c340e606",
+                    "name": "v_ConfirmDeleteGroup",
+                    "properties": {
+                        "x": -245.82071007962726,
+                        "y": 275.30583278997588
+                    }
+                },
+                {
+                    "id": "634998a4-f6f5-4fc2-a2f3-f36bff4229cb",
+                    "name": "v_AddUserForm",
+                    "properties": {
+                        "x": 77.76605305814072,
+                        "y": 644.0707782251802
+                    }
+                },
+                {
+                    "id": "c6a162ce-2c22-40ca-b0c8-3f036b81c450",
+                    "name": "v_AddParishForm",
+                    "properties": {
+                        "x": 866.7255229191461,
+                        "y": 565.573967564473
+                    }
+                }
+            ],
+            "edges": [
+                {
+                    "id": "64ab981d-6f6b-437a-bcab-7be085df9fe6",
+                    "name": "e_GroupsClicked_1",
+                    "sourceVertexId": "840c5814-4beb-4a2c-aa75-f63b618883eb",
+                    "targetVertexId": "940ea3e1-3700-4447-8e16-a426a5e03c37",
+                    "input": "press Groups item",
+                    "output": "groups page",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "227298b0-5eda-4cc7-88ed-6765680dd0c7",
+                    "name": "e_UsersClicked_1",
+                    "sourceVertexId": "840c5814-4beb-4a2c-aa75-f63b618883eb",
+                    "targetVertexId": "687d488b-f111-4408-bf36-dac3b53303f9",
+                    "input": "press Users item",
+                    "output": "users page",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "b95b9872-ef0b-48ed-a25a-7d63af5c613f",
+                    "name": "e_ParishesClicked_1",
+                    "sourceVertexId": "840c5814-4beb-4a2c-aa75-f63b618883eb",
+                    "targetVertexId": "05b44e1f-a481-44c2-9c4c-02801a9f9497",
+                    "input": "press Parishes item",
+                    "output": "parishes page",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "e0e98360-a34a-4d09-bab6-75f17cf7d26d",
+                    "name": "e_EmailModifyClicked",
+                    "sourceVertexId": "840c5814-4beb-4a2c-aa75-f63b618883eb",
+                    "targetVertexId": "dd8ab91e-6dbf-4ebb-8de5-eca48f2077ae",
+                    "input": "press Modify email",
+                    "output": "email form",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "87d4432b-633a-4d66-baa7-e58d2999fbf2",
+                    "name": "e_PasswordModifyClicked",
+                    "sourceVertexId": "840c5814-4beb-4a2c-aa75-f63b618883eb",
+                    "targetVertexId": "d746ba46-cd72-4826-9a73-47f429bbdba2",
+                    "input": "press Modify password",
+                    "output": "password form",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "1535987d-435a-4da5-9184-8497d326fdab",
+                    "name": "e_ProfileClicked_4",
+                    "sourceVertexId": "840c5814-4beb-4a2c-aa75-f63b618883eb",
+                    "targetVertexId": "840c5814-4beb-4a2c-aa75-f63b618883eb",
+                    "input": "press Profile item",
+                    "output": "profile page",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "947a22b1-4d75-4c6e-92cb-3f208c5c4c01",
+                    "name": "e_UsersClicked_2",
+                    "sourceVertexId": "940ea3e1-3700-4447-8e16-a426a5e03c37",
+                    "targetVertexId": "687d488b-f111-4408-bf36-dac3b53303f9",
+                    "input": "press Users item",
+                    "output": "users page",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "3a14fafc-4252-4c2a-8fd1-3795e42be979",
+                    "name": "e_ParishesClicked_2",
+                    "sourceVertexId": "940ea3e1-3700-4447-8e16-a426a5e03c37",
+                    "targetVertexId": "05b44e1f-a481-44c2-9c4c-02801a9f9497",
+                    "input": "press Parishes item",
+                    "output": "parishes page",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "f6e5f396-5bc4-4f19-957d-a9fbcb9d4dbc",
+                    "name": "e_ProfileClicked_1",
+                    "sourceVertexId": "940ea3e1-3700-4447-8e16-a426a5e03c37",
+                    "targetVertexId": "840c5814-4beb-4a2c-aa75-f63b618883eb",
+                    "input": "press Profile item",
+                    "output": "profile page",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "525ca867-c022-47d0-9ffc-41183f5eb043",
+                    "name": "e_AddGroupClicked",
+                    "sourceVertexId": "940ea3e1-3700-4447-8e16-a426a5e03c37",
+                    "targetVertexId": "4c0e7c06-08f2-47e5-a513-6e3ece5e4509",
+                    "input": "press Add group",
+                    "output": "add group form",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "1496a73d-755e-44b6-b2c5-49c7eb3e3269",
+                    "name": "e_GroupsClicked_4",
+                    "sourceVertexId": "940ea3e1-3700-4447-8e16-a426a5e03c37",
+                    "targetVertexId": "940ea3e1-3700-4447-8e16-a426a5e03c37",
+                    "input": "press Groups item",
+                    "output": "groups page",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "ca651e68-d40b-4cc2-a1c4-5bdc86957754",
+                    "name": "e_ModifyGroupClicked",
+                    "sourceVertexId": "940ea3e1-3700-4447-8e16-a426a5e03c37",
+                    "targetVertexId": "fc379a4d-78a1-4fd8-a499-0e6a5e2e1f31",
+                    "input": "press Modify group",
+                    "output": "modify group form",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "7170f861-a093-47e5-9c35-5dcdb27c2173",
+                    "name": "e_Delete",
+                    "sourceVertexId": "940ea3e1-3700-4447-8e16-a426a5e03c37",
+                    "targetVertexId": "30130e11-4864-4a57-b1cf-83d7c340e606",
+                    "input": "press Delete group",
+                    "output": "confirm delete",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "1a31e6df-531b-4562-afde-c85dad15d3ea",
+                    "name": "e_GroupsClicked_2",
+                    "sourceVertexId": "687d488b-f111-4408-bf36-dac3b53303f9",
+                    "targetVertexId": "940ea3e1-3700-4447-8e16-a426a5e03c37",
+                    "input": "press Groups item",
+                    "output": "groups page",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "253dbeef-9b37-4b40-94a3-4c9e4791433c",
+                    "name": "e_ParishesClicked_3",
+                    "sourceVertexId": "687d488b-f111-4408-bf36-dac3b53303f9",
+                    "targetVertexId": "05b44e1f-a481-44c2-9c4c-02801a9f9497",
+                    "input": "press Parishes item",
+                    "output": "parishes page",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "5ee38fb6-f2e3-4900-8625-ddde1b5a2808",
+                    "name": "e_ProfileClicked_2",
+                    "sourceVertexId": "687d488b-f111-4408-bf36-dac3b53303f9",
+                    "targetVertexId": "840c5814-4beb-4a2c-aa75-f63b618883eb",
+                    "input": "press Profile item",
+                    "output": "profile page",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "48e282c8-cb42-4de0-92f1-c55d2951f1a2",
+                    "name": "e_UsersClicked_4",
+                    "sourceVertexId": "687d488b-f111-4408-bf36-dac3b53303f9",
+                    "targetVertexId": "687d488b-f111-4408-bf36-dac3b53303f9",
+                    "input": "press Users item",
+                    "output": "users page",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "93e24fa9-2705-4d6c-94d0-4ca3b7e4abf3",
+                    "name": "e_AddUserClicked",
+                    "sourceVertexId": "687d488b-f111-4408-bf36-dac3b53303f9",
+                    "targetVertexId": "634998a4-f6f5-4fc2-a2f3-f36bff4229cb",
+                    "input": "press Add user",
+                    "output": "user form",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "4b2278b5-1df9-457f-9e54-3dc1a17c0e88",
+                    "name": "e_GroupsClicked_3",
+                    "sourceVertexId": "05b44e1f-a481-44c2-9c4c-02801a9f9497",
+                    "targetVertexId": "940ea3e1-3700-4447-8e16-a426a5e03c37",
+                    "input": "press Groups item",
+                    "output": "groups page",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "3ec52e20-6eb5-4a0a-b055-76c0907d08d2",
+                    "name": "e_UsersClicked_3",
+                    "sourceVertexId": "05b44e1f-a481-44c2-9c4c-02801a9f9497",
+                    "targetVertexId": "687d488b-f111-4408-bf36-dac3b53303f9",
+                    "input": "press Users item",
+                    "output": "users page",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "57a22696-7deb-4a8c-9b42-8cbefd70adc7",
+                    "name": "e_ProfileClicked_3",
+                    "sourceVertexId": "05b44e1f-a481-44c2-9c4c-02801a9f9497",
+                    "targetVertexId": "840c5814-4beb-4a2c-aa75-f63b618883eb",
+                    "input": "press Profile item",
+                    "output": "profile page",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "e6072288-d116-4261-a946-1b5aa8727d9d",
+                    "name": "e_ParishesClicked_4",
+                    "sourceVertexId": "05b44e1f-a481-44c2-9c4c-02801a9f9497",
+                    "targetVertexId": "05b44e1f-a481-44c2-9c4c-02801a9f9497",
+                    "input": "press Parishes item",
+                    "output": "parishes page",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "2c4e862e-5a54-4e23-80f0-3642395d34b4",
+                    "name": "e_AddParishClicked",
+                    "sourceVertexId": "05b44e1f-a481-44c2-9c4c-02801a9f9497",
+                    "targetVertexId": "c6a162ce-2c22-40ca-b0c8-3f036b81c450",
+                    "input": "press Add parish",
+                    "output": "parish form",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "284cf4fc-a2c0-40e6-8780-d9efcab9c5de",
+                    "name": "e_EmailModifySaved",
+                    "sourceVertexId": "dd8ab91e-6dbf-4ebb-8de5-eca48f2077ae",
+                    "targetVertexId": "840c5814-4beb-4a2c-aa75-f63b618883eb",
+                    "input": "press Save email",
+                    "output": "profile page",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "8d656158-f81b-4294-82ad-46ecf9e85c82",
+                    "name": "e_EmailModifyCancelled",
+                    "sourceVertexId": "dd8ab91e-6dbf-4ebb-8de5-eca48f2077ae",
+                    "targetVertexId": "840c5814-4beb-4a2c-aa75-f63b618883eb",
+                    "input": "press Cancel email",
+                    "output": "profile page",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "99303c3f-b799-4071-ac99-0264b64e4144",
+                    "name": "e_PasswordModifySaved",
+                    "sourceVertexId": "d746ba46-cd72-4826-9a73-47f429bbdba2",
+                    "targetVertexId": "840c5814-4beb-4a2c-aa75-f63b618883eb",
+                    "input": "press Save password",
+                    "output": "profile page",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "c75fcd7f-73eb-4f70-bef4-25c1cfaa2f08",
+                    "name": "e_PasswordModifyCancelled",
+                    "sourceVertexId": "d746ba46-cd72-4826-9a73-47f429bbdba2",
+                    "targetVertexId": "840c5814-4beb-4a2c-aa75-f63b618883eb",
+                    "input": "press Cancel password",
+                    "output": "profile page",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "2abbf286-584a-4129-9895-8551b14db103",
+                    "name": "e_AddGroupSaved",
+                    "sourceVertexId": "4c0e7c06-08f2-47e5-a513-6e3ece5e4509",
+                    "targetVertexId": "940ea3e1-3700-4447-8e16-a426a5e03c37",
+                    "input": "press Save new group",
+                    "output": "groups page",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "9f44a916-33f1-4d02-a1a8-350af07f773b",
+                    "name": "e_AddGroupCancelled",
+                    "sourceVertexId": "4c0e7c06-08f2-47e5-a513-6e3ece5e4509",
+                    "targetVertexId": "940ea3e1-3700-4447-8e16-a426a5e03c37",
+                    "input": "press Cancel new group",
+                    "output": "groups page",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "153df594-cb21-4d07-8779-f5f3aba66687",
+                    "name": "e_ModifyGroupSaved",
+                    "sourceVertexId": "fc379a4d-78a1-4fd8-a499-0e6a5e2e1f31",
+                    "targetVertexId": "940ea3e1-3700-4447-8e16-a426a5e03c37",
+                    "input": "press Save group",
+                    "output": "groups page",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "12e62e38-eb34-4ea1-bb46-2b599ac6c908",
+                    "name": "e_ModifyGroupCancelled",
+                    "sourceVertexId": "fc379a4d-78a1-4fd8-a499-0e6a5e2e1f31",
+                    "targetVertexId": "940ea3e1-3700-4447-8e16-a426a5e03c37",
+                    "input": "press Cancel group",
+                    "output": "groups page",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "e417b63b-bdda-4035-abca-8ed14606d058",
+                    "name": "e_CancelDelete",
+                    "sourceVertexId": "30130e11-4864-4a57-b1cf-83d7c340e606",
+                    "targetVertexId": "940ea3e1-3700-4447-8e16-a426a5e03c37",
+                    "input": "press Cancel delete",
+                    "output": "groups page",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "a96cf32b-2d25-4458-9b48-3a28171939b9",
+                    "name": "e_ConfirmDelete",
+                    "sourceVertexId": "30130e11-4864-4a57-b1cf-83d7c340e606",
+                    "targetVertexId": "940ea3e1-3700-4447-8e16-a426a5e03c37",
+                    "input": "press Confirm delete",
+                    "output": "groups page",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "e2a1c58b-e21a-4379-a193-0159d9f7c11e",
+                    "name": "e_AddUserCancelled",
+                    "sourceVertexId": "634998a4-f6f5-4fc2-a2f3-f36bff4229cb",
+                    "targetVertexId": "687d488b-f111-4408-bf36-dac3b53303f9",
+                    "input": "press Cancel user",
+                    "output": "users page",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                },
+                {
+                    "id": "5506b099-898f-4011-b80b-90f0d33ec6a5",
+                    "name": "e_AddParishCancelled",
+                    "sourceVertexId": "c6a162ce-2c22-40ca-b0c8-3f036b81c450",
+                    "targetVertexId": "05b44e1f-a481-44c2-9c4c-02801a9f9497",
+                    "input": "press Cancel parish",
+                    "output": "parish page",
+                    "weight": "1.000000",
+                    "cost": "1.000000"
+                }
+            ],
+            "startElementId": "840c5814-4beb-4a2c-aa75-f63b618883eb"
+        }
+    ]
+}
