@@ -21,7 +21,13 @@ A [MisEnapló](https://misenaplo.hu) alkalmazás navigációjának tesztelése F
 
 ## A modell
 
+Az alkalmazás állapotait a ```model/MisEnaplo.json``` fájlban szereplő véges automata (FSM) reprezentálja a csúcsok és élek listájával. Hasonló modellek készíthetők a [GraphWalker](https://graphwalker.github.io/) használatával, az eredmények ```json``` fájlba exportálhatóak.
+
 ## MTR és tesztszekvenciák
+
+Az FSM modellből az [MTR](https://modeltestrelax.org/) keretrendszer segtségével generálhatóak a tesztszekvenciák, amelyek a ```test_suites``` mappában találhatóak. Az meglévő tesztszekvenciák a következők:
+
+// TODO
 
 ## Tesztek futtatása és eredmények
 
