@@ -1,3 +1,7 @@
+## Bevezetés
+
+A [MisEnapló](https://misenaplo.hu) alkalmazás navigációjának tesztelése FSM modellből generált tesztszekvenciák futtatásával.
+
 ## Futtatás előtt
 
 - Node.js telepítve kell legyen
@@ -14,3 +18,11 @@
 - kezdetben szükséges a függőségek telepítése:
 
   ```npm install```
+
+## A modell
+
+## MTR és tesztszekvenciák
+
+## Tesztek futtatása és eredmények
+
+
