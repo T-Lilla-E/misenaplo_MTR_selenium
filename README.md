@@ -32,4 +32,22 @@ Az FSM modellből az [MTR](https://modeltestrelax.org/) keretrendszer segtségé
 
 ## Tesztek futtatása és eredmények
 
+Egy ```test_suites``` mappából származó tesztszekvencia az alábbi módon futtatható:
 
+```node index.js <test_sequence_name>```.
+
+Ekkor megjelenik egy Chrome böngésző ablak, ahol a Selenium végrehajtja a szekvenciában meghatározott input eseményeket. Minden végrehajtási lépésnél a kódban ellenőrizzük, hogy az elvárt és a valós output megegyezik-e. Minden végrehajtási lépésről kapunk egy visszajelző üzenetet a terminálablakban, ahol a tesztet futtatjuk, ennek struktúrája a következő:
+
+```[INFO] 5. - PASS - INPUT: press Profile item ||  OUTPUT: profile page```.
+
+Ugyanitt jelezve vannak a ```FAIL``` esetek, amik helytelen navigáció vagy timeout következtében történhetnek meg.
+
+A végén egy összesítés jelenik meg a tesztekre vonatkozóan, ami az alábbi struktúrát követi:
+
+```
+Navigation fail: 0 times
+Timeout fail: 5 times
+Timeout fail indexes: 2, 3, 16, 20, 21
+Success rate: 84.375%
+Duration of execution: 0 min 32 sec
+```
