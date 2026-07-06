@@ -26,8 +26,9 @@ Az alkalmazás állapotait a ```model/MisEnaplo.json``` fájlban szereplő vége
 ## MTR és tesztszekvenciák
 
 Az FSM modellből az [MTR](https://modeltestrelax.org/) keretrendszer segtségével generálhatóak a tesztszekvenciák, amelyek a ```test_suites``` mappában találhatóak. Az meglévő tesztszekvenciák a következők:
-
-// TODO
+- ATS0 és ATSa: All-Transition-State tesztelés változatai, az összes lehetséges output hiba felderítésére alkalmas a szekvencia
+- NS-1: N-Switch-Coverage, amely minden lehetséges 2 hosszúságú tranzíciósorozatot bejár
+- Random state: a megfelelő mértékű állapotlefedettségig tart a teszt (50, 75 és 100 százalékos szekvenciáink vannak itt)
 
 ## Tesztek futtatása és eredmények
 
